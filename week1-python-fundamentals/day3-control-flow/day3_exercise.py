@@ -17,6 +17,8 @@ invalid_records = []
 
 for index, rec in enumerate(records, start=1):
     errors = []    # empty list — collect all errors for THIS record
+    valid=[]
+    invalid=[]
     
     # Check name
     if rec["name"] == "":
@@ -53,8 +55,11 @@ for index, rec in enumerate(records, start=1):
 
 
 print(f"\nValid: {len(valid_records)}")
-for rec in valid_records:
-    print(f"{rec["name"]}")
 print(f"Invalid: {len(invalid_records)}")
-for rec in invalid_records:
-    print(f"{rec["name"]}")
+
+valid_names = [rec["name"] for rec in valid_records]
+invalid_names = [rec["name"] or "UNKNOWN" for rec in invalid_records]
+
+print(f"Valid: {valid_names}")
+print(f"Invalid: {invalid_names}")
+
