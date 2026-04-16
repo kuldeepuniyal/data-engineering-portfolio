@@ -1,0 +1,29 @@
+[
+    {
+        "id": "5",
+        "name": "Neha",
+        "email": "neha@email.com",
+        "age": 22,
+        "salary": null,
+        "dept": "Marketing",
+        "join_date": "2023-09-15"
+    },
+    {
+        "id": "7",
+        "name": "Vikram",
+        "email": "vikram@email.com",
+        "age": 28,
+        "salary": null,
+        "dept": "Engineering",
+        "join_date": "2023-04-20"
+    },
+    {
+        "id": "10",
+        "name": "Meera",
+        "email": "meera@email.com",
+        "age": null,
+        "salary": 88000,
+        "dept": "Engineering",
+        "join_date": "2023-11-01"
+    }
+]

@@ -1,0 +1,6 @@
+name,dept,salary,city
+Kuldeep,Analytics,75000,Ghaziabad
+Amit,Engineering,82000,Delhi
+Priya,Analytics,,Mumbai
+Rahul,Engineering,91000,
+Neha,Marketing,bad_data,Ghaziabad

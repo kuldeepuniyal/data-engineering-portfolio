@@ -1,0 +1,11 @@
+id,name,email,age,salary,dept,join_date
+1,Kuldeep,kuldeep@email.com,28,75000,Analytics,2023-01-15
+2,,amit@email.com,25,82000,Engineering,2023-03-20
+3,Priya,priya.email.com,30,69000,Analytics,2022-07-10
+4,Rahul,rahul@email.com,-5,91000,Engineering,2023-06-01
+5,Neha,neha@email.com,22,,Marketing,2023-09-15
+6,Sita,,35,78000,Analytics,bad_date
+7,Vikram,vikram@email.com,28,not_a_number,Engineering,2023-04-20
+8,Kavita,kavita@email.com,200,71000,Marketing,2023-08-10
+9,Raj,raj@email.com,26,69000,,2023-05-25
+10,Meera,meera@email.com,,88000,Engineering,2023-11-01

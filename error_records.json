@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Priya",
+        "dept": "Analytics",
+        "salary": null,
+        "city": "Mumbai"
+    },
+    {
+        "name": "Neha",
+        "dept": "Marketing",
+        "salary": null,
+        "city": "Ghaziabad"
+    }
+]
