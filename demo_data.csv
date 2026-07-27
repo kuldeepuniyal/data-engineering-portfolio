@@ -1,0 +1,5 @@
+id,name,age,salary
+1,Kuldeep,28,75000
+2,Amit,,82000
+3,Priya,30,not_a_number
+4,Rahul,-5,91000

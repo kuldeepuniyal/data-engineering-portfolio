@@ -1,0 +1,9 @@
+2026-07-27 12:56:34 - INFO - Written raw_data.csv
+2026-07-27 12:56:34 - INFO - Pipeline started for raw_data.csv
+2026-07-27 12:56:34 - WARNING - Row 2: name is empty, defaulted to 'Unknown'
+2026-07-27 12:56:34 - ERROR - Row 7: cannot convert salary='not_a_number' to int
+2026-07-27 12:56:34 - WARNING - Row 9: dept is empty, defaulted to 'Unassigned'
+2026-07-27 12:56:34 - INFO - Processed 10 records — Clean: 7, Errors: 3
+2026-07-27 12:56:34 - INFO - Written clean_data.json
+2026-07-27 12:56:34 - INFO - Written errors.json
+2026-07-27 12:56:34 - INFO - Pipeline finished. Summary: {'total': 10, 'clean': 7, 'errors': 3, 'avg_salary': 76428.57142857143, 'records_per_dept': {'Analytics': 3, 'Engineering': 2, 'Marketing': 1, 'Unassigned': 1}}
